@@ -1,0 +1,14 @@
+
+import { SignupForm } from "@/components/signup-form";
+
+export default function SignupPage() {
+  return (
+    <main className="p-8">
+      <h1 className="text-2xl font-bold mb-4">
+        Create an account
+      </h1>
+
+      <SignupForm />
+    </main>
+  );
+}
